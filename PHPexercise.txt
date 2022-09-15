@@ -1,0 +1,70 @@
+ <h1>Exercise1</h1>
+ <?php
+        
+ echo "Twinkle, Twinkle little Star.";
+        
+ $txt1 = "Twinkle";
+ $txt = "Star";
+        
+ echo "$txt1, $txt1 little $txt.";
+        
+ ?>
+        
+ <h1>Exercise2</h1>
+ <?php 
+
+ $x=10; 
+ $y=7;
+
+ echo "$x + $y = " . ($x + $y) ."<br>";
+ echo "$x - $y = " . ($x - $y) ."<br>";
+ echo "$x * $y = " . ($x * $y) ."<br>";
+ echo "$x / $y = " . ($x / $y) ."<br>";
+ echo "$x % $y = " . ($x % $y) ."<br>";
+ ?>
+ 
+ <h1>Exercise3</h1>
+ <?php
+$x=8;
+
+echo "Value is now " . $x;
+$x += 2;
+echo "<br>";
+echo "Value is now " . $x;
+$x -= 4;
+echo "<br>";
+echo "Value is now " . $x;
+$x *= 5;
+echo "<br>";
+echo "Value is now " . $x;
+$x /= 3;
+echo "<br>";
+echo "Value is now " . $x;
+$x ++ ;
+echo "<br>";
+echo "Value is now " . $x;
+$x -- ;
+echo "<br>";
+echo "Value is now " . $x;
+
+?>
+
+<h1>Exercise4</h1>
+<?php   
+ 
+$name='Harry'; 
+$age=28;   
+ 
+var_dump($name); 
+echo "<br/>";   
+ 
+print_r($name); 
+echo "<br/>";   
+ 
+var_dump($age); 
+echo "<br/>";  
+  
+$name=NULL;   
+var_dump($name);
+
+?> 
