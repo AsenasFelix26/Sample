@@ -1,0 +1,28 @@
+<h1>PHP exercise 5</h1>
+<?php   
+ $around = "around"; 
+echo 'What goes ' . $around . ' comes ' . $around . '.';
+?> 
+
+<h1>PHP exercise 6</h1>
+<?php
+for ($x = 1; $x <= 12; $x++){
+  $product = $x * $x;
+  echo("$x * $x = $product" . "<br>");
+}
+?>
+
+<h1>PHP exercise 7</h1>
+<?php
+
+echo "<table><tr>";
+for($x = 1; $x <= 7; $x++){
+	for($y = 1; $y <=7; $y++){
+    	echo "<td>" . ($x * $y) . "<td>";
+    }
+    if($x !=7) echo "</tr><tr>";
+}
+echo "</tr></table>";
+
+?>
+      
